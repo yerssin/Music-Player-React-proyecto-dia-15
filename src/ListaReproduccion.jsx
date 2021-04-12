@@ -1,6 +1,7 @@
 import { useState, useRef } from "react";
 import { canciones } from "./canciones.js";
 import Controles from "./components/Controles";
+import "./App.css";
 
 function ListaReproduccion() {
   const [reproduciendo, setReproduciendo] = useState(false);
